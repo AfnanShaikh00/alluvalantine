@@ -154,7 +154,7 @@ function Page2({ onNext, onBack, crushImg, setCrushImg }) {
           fontFamily: "'Playfair Display', serif",
           fontSize: "clamp(1.7rem, 5vw, 2.8rem)", color: "#ffb7c5",
           marginBottom: "0.4rem", textShadow: "0 0 30px rgba(255,107,139,0.55)",
-        }}>Tumhe kyun chahta/chahti hoon?</h2>
+        }}>Tumhe kyun chahta hoon?</h2>
         <p style={{ color: "rgba(255,183,197,0.55)", fontFamily: "'Lato', sans-serif", marginBottom: "2rem", fontSize: "0.95rem" }}>
           In baaton ne mera dil chura liya...
         </p>
@@ -245,7 +245,7 @@ function Page3({ onNext, onBack, crushImg }) {
             fontFamily: "'Playfair Display', serif",
             fontSize: "clamp(1.9rem, 6vw, 3.4rem)", color: "#fff",
             textShadow: "0 0 40px #ff6b8b", marginBottom: "1.5rem", lineHeight: 1.3,
-          }}>Kya tum mere hoge / hogi?</h2>
+          }}>Kya tum mere hoge Aliya?</h2>
           <div style={{ width: "70px", height: "2px", background: "linear-gradient(90deg, transparent, #ff6b8b, transparent)", margin: "0 auto 2rem" }} />
           <p style={{
             fontFamily: "'Lato', sans-serif", fontWeight: 300,
@@ -253,10 +253,10 @@ function Page3({ onNext, onBack, crushImg }) {
           }}>
             Maine bahut socha, bahut waqt liya,<br />
             par dil ki baat chupaana mushkil ho gaya.<br /><br />
-            Tum meri zindagi mein ek khushbu ki tarah aaye/aayi,<br />
+            Tum meri zindagi mein ek khushbu ki tarah aayi,<br />
             aur ab tumhare bina yeh zindagi adhoori lagti hai.<br /><br />
             <span style={{ color: "#ff6b8b", fontWeight: 600, fontSize: "1.1em" }}>
-              Main tumse pyaar karta/karti hoon. 💕
+              Main tumse pyaar karta hoon. 💕
             </span>
           </p>
           <button onClick={spawnHearts} style={{
@@ -282,7 +282,7 @@ function Page3({ onNext, onBack, crushImg }) {
           }}
             onMouseEnter={e => e.target.style.transform = "scale(1.05)"}
             onMouseLeave={e => e.target.style.transform = "scale(1)"}
-          >Jawaab do ❤️</button>
+          >Jawaab do aliya❤️</button>
         </div>
       </div>
     </div>
@@ -352,7 +352,7 @@ function Page4({ onBack, crushImg }) {
               fontFamily: "'Playfair Display', serif",
               fontSize: "clamp(1.8rem, 5vw, 3rem)", color: "#fff",
               textShadow: "0 0 30px #ff6b8b", marginBottom: "0.8rem",
-            }}>Tumhara jawaab kya hai?</h2>
+            }}>Tumhara jawaab kya hai Aliya?</h2>
             <p style={{ fontFamily: "'Lato', sans-serif", fontWeight: 300, color: "rgba(255,183,197,0.65)", marginBottom: "3rem", fontSize: "1rem" }}>
               Mera dil dhadak raha hai... 💓
             </p>
@@ -417,7 +417,7 @@ function Page4({ onBack, crushImg }) {
             }}>
               Ab hum saath milkar ek khoobsoorat kahani likhenge.<br />
               Har khushi, har gham — sab kuch tumhare saath.<br /><br />
-              <span style={{ color: "#ff6b8b", fontWeight: 600 }}>Tum mere ho/ho — hamesha ke liye. 💕</span>
+              <span style={{ color: "#ff6b8b", fontWeight: 600 }}>Tum mere ho — hamesha ke liye. 💕</span>
             </p>
             <div style={{ fontSize: "2.8rem", animation: "floatY 2s ease-in-out infinite" }}>💑</div>
           </div>
