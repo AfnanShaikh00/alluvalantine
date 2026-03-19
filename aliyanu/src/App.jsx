@@ -138,9 +138,9 @@ function Page2({ onNext, onBack, crushImg, setCrushImg }) {
             {crushImg
               ? <img src={crushImg} alt="crush" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
               : <div style={{ textAlign: "center", padding: "1rem" }}>
-                  <div style={{ fontSize: "2.5rem", marginBottom: "0.3rem" }}>📸</div>
-                  <p style={{ color: "rgba(255,183,197,0.7)", fontSize: "0.75rem", fontFamily: "'Lato', sans-serif" }}>Add photo</p>
-                </div>
+                <div style={{ fontSize: "2.5rem", marginBottom: "0.3rem" }}>📸</div>
+                <p style={{ color: "rgba(255,183,197,0.7)", fontSize: "0.75rem", fontFamily: "'Lato', sans-serif" }}>Add photo</p>
+              </div>
             }
           </div>
           <input ref={fileRef} type="file" accept="image/*" style={{ display: "none" }} onChange={handleFile} />
@@ -245,7 +245,7 @@ function Page3({ onNext, onBack, crushImg }) {
             fontFamily: "'Playfair Display', serif",
             fontSize: "clamp(1.9rem, 6vw, 3.4rem)", color: "#fff",
             textShadow: "0 0 40px #ff6b8b", marginBottom: "1.5rem", lineHeight: 1.3,
-          }}>Kya tum mere hoge Aliya?</h2>
+          }}>Kya tum mere hoge Ayesha?</h2>
           <div style={{ width: "70px", height: "2px", background: "linear-gradient(90deg, transparent, #ff6b8b, transparent)", margin: "0 auto 2rem" }} />
           <p style={{
             fontFamily: "'Lato', sans-serif", fontWeight: 300,
@@ -282,7 +282,7 @@ function Page3({ onNext, onBack, crushImg }) {
           }}
             onMouseEnter={e => e.target.style.transform = "scale(1.05)"}
             onMouseLeave={e => e.target.style.transform = "scale(1)"}
-          >Jawaab do aliya❤️</button>
+          >Jawaab do ayesha❤️</button>
         </div>
       </div>
     </div>
@@ -307,7 +307,7 @@ function Page4({ onBack, crushImg }) {
     setAnswer("yes");
     setConfetti(Array.from({ length: 22 }, (_, i) => ({
       id: i, left: Math.random() * 100, delay: Math.random() * 0.8,
-      color: ["#ff6b8b","#ffb347","#c2185b","#fff","#ffccd5","#a78bfa"][Math.floor(Math.random() * 6)],
+      color: ["#ff6b8b", "#ffb347", "#c2185b", "#fff", "#ffccd5", "#a78bfa"][Math.floor(Math.random() * 6)],
     })));
   };
 
